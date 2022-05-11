@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Linkretz - Portfolio Clément Diot</title>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <!-- owl carousel css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- magnific popup css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <header class="header-area">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <!-- brand -->
+        <a href="../../index.html" class="navbar-brand">Clément Diot</a>
+        <!-- toggler/collapsible button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="../../index.html" class="nav-link">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="../certification.html" class="nav-link">Certifications</a>
+            </li>
+            <li class="nav-item">
+              <a href="../portfolio.html" class="nav-link active">Portefeuille Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a href="../veille.html" class="nav-link">Veille</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="about-area section-padding" id="about" >
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <br><br><h2>TP : Correction et évolution du site Web de l'agence Linkretz</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="about-content">
+            <h5 class="about-title">I. Compétences mises en oeuvre</h5>
+            <p>Répondre aux incidents et aux demandes d'assistance et d'évolution : <br>
+            &nbsp;&nbsp;&nbsp;▸ Collecter, suivre et orienter des demandes<br>
+            &nbsp;&nbsp;&nbsp;▸ Traiter des demandes concernant les applications<br>
+            Développer la présence en ligne de l’organisation : <br>
+            &nbsp;&nbsp;&nbsp;▸ Participer à l’évolution d’un site Web exploitant les données de l’organisation</p><br>
+            <h5 class="about-title">II. Genèse du TP</h5>
+            <p>Ce Tp a constitué le quatrième chapitre en bloc web de la première année de BTS SIO. Ce TP avait pour finalité la découverte et la manipulation de code HTML et CSS. Ce code était rempli de bug empêchant le bon fonctionnement d'une application web statique.</p><br>
+            <h5 class="about-title">III. Environnement de travail</h5>
+            <p>Voici les différents logiciels utilisés pour mener à bien ce TP : <br>
+            &nbsp;&nbsp;&nbsp;- Visual Studio Code <br>
+            &nbsp;&nbsp;&nbsp;- WampServer</p><br>
+            <h5 class="about-title">IV. Description du TP</h5>
+            <p>
+              Tout d'abord, nous avons reçu une application web statique nommée Linkretz truffée de bug. Ainsi le but de ce tp était de comprendre la provenance du bug et d'effectuer sa correction. En résumé, les objectifs de ce tp était donc de savoir utiliser un fichier CSS, visualiser le code source d'une page HTML permmettant de mieux visualiser l'origine des bugs du code, savoir utiliser l'inspecteur de code, savoir modifier une règle dans une feuille de style CSS et enfin savoir modifier une page HTML. <br><br>
+              Pour finir, voici les évolutions demandées sur le site Linkretz :<br>
+              &nbsp;&nbsp;&nbsp;- Affichage des caractéristiques des tour-opérateurs enregistrés dans la base de données lors du clic sur l'onglet 'TOUR-OPERATEURS';<br>
+              &nbsp;&nbsp;&nbsp;- Lorsque l'utilisateur sélectionne l'onglet 'CONTACT' dans le menu, il doit obtenir le nom, le prénom et le numéro de téléphone des commerciaux de Linkretz;<br>
+              &nbsp;&nbsp;&nbsp;- Actuellement le menu (contenu entre des balises nav) est présent dans chacun des scripts situés dans le répertoire page. Si on souhaite modifier le menu (modifier le nom d'une option, ajouter une option, supprimer une option, modifier un lien,etc.), il est nécessaire de modifier tous les scripts situés dans le répertoire page. Pour éviter ce travail fastidieux, nous allons utiliser les includes;<br>
+              &nbsp;&nbsp;&nbsp;- Pour la partie accessible par les employés, il faudra afficher les caractéristiques de tous les employés dans l'onglet 'CONNEXION' puis en cliquant sur le lien 'Accès au menu des salariés';<br>
+              &nbsp;&nbsp;&nbsp;- Pour la partie accessible par l'administrateur du site, il faudra modifier le code pour afficher les employés en vue de leur gestion (CRUD) et d'afficher les tour-opérateurs en vue de leur gestion (CRUD) dans l'onglet 'CONNEXION' puis en cliquant sur le lien 'Accès au menu de l'administrateur';<br>
+              &nbsp;&nbsp;&nbsp;- Modification du site de Linkretz pour offrir à un internaute la possibilité de déposer une demande d’information grâce à un formulaire dans l'onglet 'NOUS CONTACTER';<br>
+              &nbsp;&nbsp;&nbsp;- Ajouter une fonctionnalité permettant de créer un employé avec ses caractéristiques grâce à un formulaire dans la partie accessible par l'administrateur;<br>
+              &nbsp;&nbsp;&nbsp;- Mutualisation des composants graphiques d’un formulaire (ajout et modification).
+            </p>
+            <ul>
+                <li><a href="../../images/portfolio/tp-correction-web.pdf" target="_blank" class="btn btn-1">Tp correction web Linkretz</a></li>
+                <li><a href="https://github.com/DiotClement/Linkretz/tree/main/linkretz%20-%20SLAM" target="_blank" class="btn btn-1">Application modifiée avec les évolutions demandées</a></li>
+                <li><a href="../../images/portfolio/Les Fonctionnalitées de l’application.pdf" target="_blank" class="btn btn-1">Les fonctionnalités de l'application</a></li>
+            </ul>
+        </div>
+     </div>
+    </div>
+    <!-- portfolio section start -->
+  <div class="img-gallery section-padding" id="screen">
+    <div class="container">
+     <div class="row justify-content-center">
+       <div class="col-lg-8">
+         <div class="section-title">
+           <br>
+           <h2><span>Captures d'écran</span></h2>
+         </div>
+       </div>
+     </div>
+     <!-- portfolio items -->
+     <div class="row grid">
+       <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+         <div class="single-work text-center mt-30">
+           <div class="work-image">
+             <img src="../../images/portfolio/menu mvc corrigé.png" alt="">
+           </div>
+           <div class="work-overlay">
+             <div class="work-content">
+               <h3 class="work-title">Menu Linkretz corrigé</h3>
+               <ul>
+                 <li><a href="../../images/portfolio/menu mvc corrigé.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+               </ul>
+             </div>
+           </div>
+         </div> <!-- single work -->
+       </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/caractéristiques des tour-opérateurs MVC.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Affichage des caractéristiques des tour-opérateurs</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/caractéristiques des tour-opérateurs MVC.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/caractéristiques des commerciaux MVC.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Affichage des caractéristiques commerciaux</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/caractéristiques des commerciaux MVC.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/Include MVC.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Exemple d'utilisation d'include dans le code Linkretz</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/Include MVC.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/menu connexion MVC.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Fonctionnement de l'onglet 'CONNEXION'</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/menu connexion MVC.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/liste employé MVC.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Dans partie accessible par les employés, affichage des caractéristiques de tous les employés</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/liste employé MVC.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/employé MVC CRUD.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Dans la partie accessible par l'administrateur du site, affichage des employés en vue de leur gestion (CRUD)</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/employé MVC CRUD.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/tour opérateur MVC CRUD.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Dans la partie accessible par l'administrateur du site, affichage des tour-opérateurs en vue de leur gestion (CRUD)</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/tour opérateur MVC CRUD.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/demande information MVC.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Fonctionnalité de demande d’information</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/demande information MVC.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work --> 
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/creer employe MVC.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Fonctionnalité d'ajout d'un employé</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/creer employe MVC.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work --> 
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/mutalisation MVC.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Mutualisation des composants graphiques</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/mutalisation MVC.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="copyright-text">&copy; Clément Diot | Tous droits Réservés</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
+  
+  <!-- jquery js -->
+  <script src="../../js/jquery.min.js"></script>
+  <!-- popper js -->
+  <script src="../../js/popper.min.js"></script>
+  <!-- scrollit js -->
+  <script src="../../js/scrollit.js"></script>
+  <!-- parallax js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <!-- owl carousel js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- magnific popup js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- isotope js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="../../js/bootstrap.min.js"></script>
+  <!-- main js -->
+  <script src="../../js/main.js"></script>
+</body>
+</html>
+    

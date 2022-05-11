@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Déploiement d'application - Portfolio Clément Diot </title>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <!-- owl carousel css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- magnific popup css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <header class="header-area">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <!-- brand -->
+        <a href="../../index.html" class="navbar-brand">Clément Diot</a>
+        <!-- toggler/collapsible button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="../../index.html" class="nav-link">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="../certification.html" class="nav-link">Certifications</a>
+            </li>
+            <li class="nav-item">
+              <a href="../portfolio.html" class="nav-link active">Portefeuille Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a href="../veille.html" class="nav-link">Veille</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="about-area section-padding" id="about" >
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <br><br><h2>TP : Déploiement de l'application "Gestion des remboursements de frais" sur une machine virtuelle (réalisé en binôme)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="about-content">
+            <h5 class="about-title">I. Compétences mises en oeuvre</h5>
+            <p>Travailler en mode projet : <br>
+            &nbsp;&nbsp;&nbsp;▸ Analyser les objectifs et les modalités d'organisation d'un projet<br>
+            &nbsp;&nbsp;&nbsp;▸ Planifier les activités<br>
+            Mettre à disposition des utilisateurs un service informatique :<br>
+            &nbsp;&nbsp;&nbsp;▸ Réaliser les tests d'intégration et d'acceptation d'un service<br>
+            &nbsp;&nbsp;&nbsp;▸ Déployer un service<br>
+            &nbsp;&nbsp;&nbsp;▸ Accompagner les utilisateurs dans la mise en place d'un service<br>
+            </p><br>
+            <h5 class="about-title">II. Déroulement du TP</h5>
+            <p>Ce tp a pour but de nous montrer la cohabitation développeur/administrateur réseaux ainsi que le déploiement d'un service web. En outre avec mon collègue Nathan PETROWICK de la section réseau, nous avons pu déployer un service Web et documenter son processus.</p><br>
+            <h5 class="about-title">III. Environnement de travail</h5>
+            <p>Voici les différents logiciels utilisés lors de ce TP: <br>
+            &nbsp;&nbsp;&nbsp;- Visual Studio Code<br>
+            &nbsp;&nbsp;&nbsp;- FileZilla<br>
+            &nbsp;&nbsp;&nbsp;- VirtualBox<br><br>
+            <h5 class="about-title">IV. Description du TP</h5>
+            <p>
+                Tout d'abord avant de commencer ce tp, j'avais préalablement mon application web "Gestion des remboursements de frais" fonctionnelle avec quelques améliorations en plus et mon collègue avait quant à lui une machine virtuelle opérationnelle avec Apache, MariaDB, un interpréteur PHP, PHPMyAdmin, un serveur SSH, un serveur FTP et enfin HTTPS configuré pour sécuriser les accès sur le serveur Apache.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maintenant voilà comment s'est déroulé ce tp, avant de rejoindre mon collègue j'ai extrait la base de données de l'application web et en ne gardant uniquement les inserts de table de référence ainsi que l'application web. Ensuite nos professeurs nous ont donné la tâche de déployer ce site web ainsi que de créer un compte utilisateur pour Madame KINTZLER et de rendre à la fin un compte rendu de ce déploiement.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pour ce faire avec mon collègue, j'ai transféré via FTP le script de la base de données, le script des comptes utilisateurs ainsi que l'application web. Nous avons exécuté les scripts puis mon collègue a modifié certains paramètres de configuration de la machine virtuelle pour prendre en compte l'application web. Enfin une dernière tâche était de rendre la connexion à PuTTY avec un clé SSH mais malheureusement nous ne sommes pas parvenus à réaliser cette tâche. Cependant nous avons quand même mis dans le compte rendu comment effectuer cette tâche. Et voilà le site a été déployé et nos professeurs ont vérifié son fonctionnement. Pour finir, tout ce processeur fût rédigé dans un compte rendu.<br>
+            </p>
+            <ul>
+                <li><a href="../../images/portfolio/Note de Service Nathan_Clément.pdf" target="_blank" class="btn btn-1">Compte rendu déploiement</a></li>
+                <li><a href="../../images/portfolio/Note Service SLAM_SISR.docx.pdf" target="_blank" class="btn btn-1">Note de service sur les composants à créer et les comptes utilisateurs à créer</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+  <!-- portfolio section start -->
+  <div class="img-gallery section-padding" id="screen">
+    <div class="container">
+     <div class="row justify-content-center">
+       <div class="col-lg-8">
+         <div class="section-title">
+           <br>
+           <h2><span>Captures d'écran</span></h2>
+         </div>
+       </div>
+     </div>
+     <!-- portfolio items -->
+     <div class="row grid">
+       <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+         <div class="single-work text-center mt-30">
+           <div class="work-image">
+             <img src="../../images/portfolio/apache.png" alt="">
+           </div>
+           <div class="work-overlay">
+             <div class="work-content">
+               <h3 class="work-title">Fonctionnement du serveur Apache</h3>
+               <ul>
+                 <li><a href="../../images/portfolio/apache.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+               </ul>
+             </div>
+           </div>
+         </div> <!-- single work -->
+       </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/ftp.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Fonctionnement du serveur FTP</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/ftp.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/openssh.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Fonctionnement du serveur SSH</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/openssh.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/compte utilisateur.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Script des comptes utilisateurs</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/compte utilisateur.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+            <div class="single-work text-center mt-30">
+              <div class="work-image">
+                <img src="../../images/portfolio/transfert ftp.png" alt="">
+              </div>
+              <div class="work-overlay">
+                <div class="work-content">
+                  <h3 class="work-title">Les transferts FTP via FileZilla</h3>
+                  <ul>
+                    <li><a href="../../images/portfolio/transfert ftp.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+            <div class="single-work text-center mt-30">
+              <div class="work-image">
+                <img src="../../images/portfolio/fonctionnement déploiement.png" alt="">
+              </div>
+              <div class="work-overlay">
+                <div class="work-content">
+                  <h3 class="work-title">Fonctionnalités fonctionnelles de l'application web</h3>
+                  <ul>
+                    <li><a href="../../images/portfolio/fonctionnement déploiement.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div> <!-- single work -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="copyright-text">&copy; Clément Diot | Tous droits Réservés</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
+  
+  <!-- jquery js -->
+  <script src="../../js/jquery.min.js"></script>
+  <!-- popper js -->
+  <script src="../../js/popper.min.js"></script>
+  <!-- scrollit js -->
+  <script src="../../js/scrollit.js"></script>
+  <!-- parallax js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <!-- owl carousel js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- magnific popup js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- isotope js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="../../js/bootstrap.min.js"></script>
+  <!-- main js -->
+  <script src="../../js/main.js"></script>
+</body>
+</html>
+    

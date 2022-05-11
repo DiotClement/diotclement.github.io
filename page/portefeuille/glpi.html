@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLPI - Portfolio Clément Diot</title>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <!-- owl carousel css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- magnific popup css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <header class="header-area">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <!-- brand -->
+        <a href="../../index.html" class="navbar-brand">Clément Diot</a>
+        <!-- toggler/collapsible button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="../../index.html" class="nav-link">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="../certification.html" class="nav-link">Certifications</a>
+            </li>
+            <li class="nav-item">
+              <a href="../portfolio.html" class="nav-link active">Portefeuille Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a href="../veille.html" class="nav-link">Veille</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="about-area section-padding" id="about" >
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <br><br><h2>TP : Utilisation de GLPI</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="about-content">
+            <h5 class="about-title">I. Compétences mises en oeuvre</h5>
+            <p>Gérer le patrimoine informatique : <br>
+            &nbsp;&nbsp;&nbsp;▸ Recenser et identifier les ressources numériques<br>
+            &nbsp;&nbsp;&nbsp;▸ Mettre en place et vérifier les niveaux d'habilitation associés à un service<br>
+            &nbsp;&nbsp;&nbsp;▸ Vérifier les conditions de la continuité d’un service informatique
+            &nbsp;&nbsp;&nbsp;▸ Vérifier le respect des règles d'utilisation des ressources numériques</p><br>
+            <h5 class="about-title">II. Genèse du TP</h5>
+            <p>Ce Tp a constitué le premier chapitre de la première année de BTS SIO. Ce Tp avait pour finalité la découverte, l’installation et l’utilisation de GLPI. Au cours de ce Tp, plusieurs pas-à-pas ont été effectués permettant la documentation de l’installation et le paramétrage du GLPI ainsi que son utilisation.</p><br>
+            <h5 class="about-title">III. Environnement de travail</h5>
+            <p>Voici les différents logiciels utilisés pour mener à bien ce TP : <br>
+            &nbsp;&nbsp;&nbsp;- VirtualBox </p><br>
+            <h5 class="about-title">IV. Description du TP</h5>
+            <p>Tout d’abord, GLPI est un logiciel de gestion de parc permettant de suivre l’état du parc informatique et l’avancée des tickets au sein d’une entreprise. Coupler avec OCS inventory pour la remontée d’informations des équipements (inventaire). 
+                Un parc informatique correspond à l’ensemble du matériel utilisé par une entreprise ou toute autre organisation. Par conséquent, un parc informatique regroupe la totalité du matériel et des logiciels composant le système informatique de votre entreprise.
+                Un parc informatique intègre, par exemple, les divers éléments suivants : <br>
+                &nbsp;&nbsp;&nbsp;- Les postes informatiques et leurs accessoires (unités centrales, écran, souris, clavier, etc.) ; <br>
+                &nbsp;&nbsp;&nbsp;- Les accessoires périphériques (imprimantes, tablettes, smartphone, caméra, scanner, disque dur, etc.) ; <br>
+                &nbsp;&nbsp;&nbsp;- Les serveurs de stockage ; <br>
+                &nbsp;&nbsp;&nbsp;- Le cloud ; <br>
+                &nbsp;&nbsp;&nbsp;- Les éléments du réseau (bornes wifi, switch, firewall, etc.) ; <br>
+                &nbsp;&nbsp;&nbsp;- Les données informatiques (actives ou archivées) ; <br>
+                &nbsp;&nbsp;&nbsp;- Les logiciels et applications, etc.<br>
+                La gestion de parc informatique regroupe un ensemble de tâches visant à entretenir, développer et optimiser l’ensemble des ressources informatiques de l’entreprise. Les différentes tâches de la gestion du parc informatique sont : <br>
+                &nbsp;&nbsp;&nbsp;- Recenser et localiser l’ensemble des éléments du parc informatique.<br>
+                &nbsp;&nbsp;&nbsp;- Définir l’organisation du système informatique.<br>
+                &nbsp;&nbsp;&nbsp;- Administrer les serveurs et équipements réseau.<br>
+                &nbsp;&nbsp;&nbsp;- Gérer l’ensemble des prestataires tiers liés à l’informatique.<br>
+                &nbsp;&nbsp;&nbsp;- Protéger le parc informatique avec des outils de sécurité avancés.<br>
+                &nbsp;&nbsp;&nbsp;- Assurer la maintenance préventive et le dépannage des équipements informatiques.<br>
+                Pour effectuer l’installation de GLPI, une machine virtuelle Debian a dû être installée et configurée avec VirtualBox. Car pour pouvoir installer notre serveur GLPI, nous aurons besoin d’un serveur Debian à jour. Cependant, des problèmes de proxy nous ont ralentis et j’ai dû effectuer ce tp chez moi. Debian (également connu sous le nom Debian GNU/Linux) est un système d’exploitation Linux composé exclusivement de logiciels libres. Debian réunit autour d'un noyau de systèmes d'exploitation de nombreux éléments développés indépendamment les uns des autres, pour plusieurs architectures matérielles. Ces éléments, programmes de base complétant le noyau et logiciels applicatifs, se présentent sous forme de « paquets » qui peuvent être installés en fonction des besoins. Enfin après avoir configuré GLPI sur la machine virtuelle Debian, OCS Inventory fut lui aussi installé et configuré car OCS Inventory permet de gérer une base de données d'inventaire de parc informatique. De plus, De nombreux plugins disponibles permettent une grande flexibilité de l'outil.
+            </p>
+            <ul>
+                <li><a href="../../images/portfolio/GLPI_installation.pdf" target="_blank" class="btn btn-1">Installation GLPI</a></li>
+                <li><a href="../../images/portfolio/Pas a pas compte et ticket d'incident GLPI + OCS Inventory.pdf" target="_blank" class="btn btn-1">Création compte + ticket incident + Installation OCS Inventory</a></li>
+            </ul>
+        </div>
+     </div>
+    </div>
+    <!-- portfolio section start -->
+  <div class="img-gallery section-padding" id="screen">
+    <div class="container">
+     <div class="row justify-content-center">
+       <div class="col-lg-8">
+         <div class="section-title">
+           <br>
+           <h2><span>Captures d'écran</span></h2>
+         </div>
+       </div>
+     </div>
+     <!-- portfolio items -->
+     <div class="row grid">
+       <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+         <div class="single-work text-center mt-30">
+           <div class="work-image">
+             <img src="../../images/portfolio/menu connexion GLPI.png" alt="">
+           </div>
+           <div class="work-overlay">
+             <div class="work-content">
+               <h3 class="work-title">Menu de connexion GLPI</h3>
+               <ul>
+                 <li><a href="../../images/portfolio/menu connexion GLPI.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+               </ul>
+             </div>
+           </div>
+         </div> <!-- single work -->
+       </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/Ajouter un utilisateur GLPI 1.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Créer un compte administrateur sur GLPI</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/Ajouter un utilisateur GLPI 1.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/Ajouter un utilisateur GLPI 2.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Renseigner les informations pour créer un compte administrateur sur GLPI</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/Ajouter un utilisateur GLPI 2.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/Ajouter un ordinateur 1.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Ajouter un ordinateur du parc informatique sur GLPI</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/Ajouter un ordinateur 1.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/Ajouter un ordinateur 2.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Renseigner les informations pour ajouter un ordinateur du parc informatique sur GLPI</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/Ajouter un ordinateur 2.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 patrimoine">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="../../images/portfolio/Ajouter un ticket.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Création d'un ticket d’assistance pour un poste de travail</h3>
+                <ul>
+                  <li><a href="../../images/portfolio/Ajouter un ticket.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="copyright-text">&copy; Clément Diot | Tous droits Réservés</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
+  
+  <!-- jquery js -->
+  <script src="../../js/jquery.min.js"></script>
+  <!-- popper js -->
+  <script src="../../js/popper.min.js"></script>
+  <!-- scrollit js -->
+  <script src="../../js/scrollit.js"></script>
+  <!-- parallax js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <!-- owl carousel js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- magnific popup js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- isotope js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="../../js/bootstrap.min.js"></script>
+  <!-- main js -->
+  <script src="../../js/main.js"></script>
+</body>
+</html>
+    
